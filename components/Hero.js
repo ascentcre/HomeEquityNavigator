@@ -8,38 +8,34 @@ export default function Hero() {
     <section className="bg-gradient-to-b from-soft-gray to-white py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-teal mb-4 leading-tight">
-          Turn Your Home Equity into Cash Flow
+          Stay in the Home You Love—Without the Monthly Mortgage Payment
         </h1>
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-semibold text-teal mb-6">
-          And Stay in the Home You Love.
-        </h2>
-        <p className="text-xl sm:text-2xl text-gray-700 mb-10 leading-relaxed max-w-3xl mx-auto">
-          Discover how a reverse mortgage can eliminate monthly mortgage payments, 
-          fund home care, and provide strategic cash flow for your retirement years.
+        <p className="text-xl sm:text-2xl text-gray-700 mb-10 leading-relaxed max-w-3xl mx-auto" style={{ lineHeight: '1.7' }}>
+          Discover how thousands of homeowners 62+ are using their home equity to eliminate mortgage payments, afford quality care, and enjoy retirement on their terms.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link 
             href="/guides" 
             className="btn-secondary inline-flex items-center gap-2"
-            aria-label="Learn about Reverse Mortgages"
+            aria-label="See How It Works"
           >
-            Learn about Reverse Mortgages
+            See How It Works
           </Link>
           <Link 
             href="/calculate" 
             className="btn-secondary inline-flex items-center gap-2"
-            aria-label="See what you qualify for"
+            aria-label="Get Your Free Analysis"
           >
-            See What You Qualify For
+            Get Your Free Analysis
           </Link>
           <a
             href="https://reversemortgageseminar.net/justin"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-secondary inline-flex items-center gap-2"
-            aria-label="Watch free reverse mortgage webinar with Michael Pankow"
+            aria-label="Watch Our Free Educational Video"
           >
-            Watch Free Webinar
+            Watch Our Free Educational Video
             <ArrowRight className="h-5 w-5" aria-hidden="true" />
           </a>
         </div>

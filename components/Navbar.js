@@ -94,7 +94,7 @@ export default function Navbar() {
               className="block px-4 py-3 text-gray-700 hover:bg-soft-gray rounded-lg font-medium text-lg"
               onClick={() => setIsOpen(false)}
             >
-              Calculate Benefits
+              Get Your Report
             </Link>
             <a
               href="https://calendly.com/justin-castro-texanabank/reverse-mortgage-discussion"
