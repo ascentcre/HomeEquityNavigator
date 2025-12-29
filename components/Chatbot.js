@@ -13,10 +13,10 @@ export default function Chatbot() {
 
 **Important:** This chat provides educational information only and does not constitute financial, legal, or tax advice. Before proceeding with a reverse mortgage, we recommend you:
 - Complete HUD-approved counseling with an independent third-party counselor
-- Speak with one of our licensed reverse mortgage specialist
+- Speak with one of our licensed reverse mortgage specialists
 - Consult with your financial and legal advisors
 
-How can I assist you today?`,
+What would you like to know about reverse mortgages? You can ask me anything!`,
     },
   ]);
   const [input, setInput] = useState('');
@@ -80,7 +80,7 @@ How can I assist you today?`,
         ...prev,
         {
           role: 'assistant',
-          content: 'Sorry, I encountered an error. Please try again or contact us directly.',
+          content: 'I apologize, but I had trouble processing your question. Please try asking again, or feel free to contact us directly for assistance.',
         },
       ]);
     } finally {
@@ -94,99 +94,99 @@ How can I assist you today?`,
       {!isOpen && (
         <button
           onClick={() => setIsOpen(true)}
-          className="fixed bottom-6 right-6 bg-teal text-white p-4 rounded-full shadow-lg hover:bg-teal-light transition-colors duration-200 z-50 focus:outline-none focus:ring-4 focus:ring-teal focus:ring-opacity-50"
-          aria-label="Open chat"
+          className="fixed bottom-6 right-6 bg-teal text-white p-5 rounded-full shadow-lg hover:bg-teal-light transition-colors duration-200 z-50 focus:outline-none focus:ring-4 focus:ring-teal focus:ring-opacity-50 min-w-[64px] min-h-[64px] flex items-center justify-center"
+          aria-label="Open chat - Click here to ask questions about reverse mortgages"
         >
-          <MessageCircle className="h-6 w-6" />
+          <MessageCircle className="h-8 w-8" />
         </button>
       )}
 
       {/* Chat Window */}
       {isOpen && (
-        <div className="fixed bottom-4 right-4 left-4 md:left-auto md:w-96 h-[600px] max-h-[calc(100vh-2rem)] bg-white rounded-lg shadow-2xl flex flex-col z-50 border border-soft-gray-dark">
+        <div className="fixed bottom-4 right-4 left-4 md:left-auto md:w-[500px] h-[650px] max-h-[calc(100vh-2rem)] bg-white rounded-lg shadow-2xl flex flex-col z-50 border-2 border-soft-gray-dark">
           {/* Chat Header */}
-          <div className="bg-teal text-white p-4 rounded-t-lg flex justify-between items-center">
+          <div className="bg-teal text-white p-5 rounded-t-lg flex justify-between items-center">
             <div>
-              <h3 className="font-semibold text-lg">Chat with us</h3>
-              <p className="text-sm text-white">Ask us anything about reverse mortgages</p>
+              <h3 className="font-semibold text-2xl mb-1">Chat with Us</h3>
+              <p className="text-base text-white">Ask us anything about reverse mortgages</p>
             </div>
             <button
               onClick={() => setIsOpen(false)}
-              className="p-1 hover:bg-teal-light rounded transition-colors focus:outline-none focus:ring-2 focus:ring-white"
+              className="p-2 hover:bg-teal-light rounded transition-colors focus:outline-none focus:ring-2 focus:ring-white min-w-[44px] min-h-[44px] flex items-center justify-center"
               aria-label="Close chat"
             >
-              <X className="h-5 w-5" />
+              <X className="h-6 w-6" />
             </button>
           </div>
 
           {/* Disclaimer Banner */}
-          <div className="bg-yellow-50 border-b border-yellow-200 px-4 py-3 text-xs text-gray-700 leading-relaxed">
-            <p className="font-semibold mb-1">Important Notice:</p>
+          <div className="bg-yellow-50 border-b-2 border-yellow-200 px-5 py-4 text-sm text-gray-700 leading-relaxed">
+            <p className="font-semibold mb-2 text-base">Important Notice:</p>
             <p>
               Texana Bank - NMLS # 407536, is an Equal Housing Lender. Texana Bank is not an agency of the federal government or acting at the direction of HUD/FHA. Programs, rates, terms, and restrictions are subject to change without notice. Underwriting terms and conditions apply.
             </p>
           </div>
 
           {/* Messages Container */}
-          <div className="flex-1 overflow-y-auto p-4 space-y-4">
+          <div className="flex-1 overflow-y-auto p-5 space-y-5">
             {messages.map((message, index) => (
               <div
                 key={index}
                 className={`flex ${message.role === 'user' ? 'justify-end' : 'justify-start'}`}
               >
                 <div
-                  className={`max-w-[80%] rounded-lg px-4 py-2 ${
+                  className={`max-w-[85%] rounded-lg px-5 py-3 ${
                     message.role === 'user'
                       ? 'bg-teal text-white'
                       : 'bg-soft-gray text-gray-900'
                   }`}
                 >
                   {message.role === 'user' ? (
-                    <p className="text-sm leading-relaxed whitespace-pre-wrap">{message.content}</p>
+                    <p className="text-base leading-relaxed whitespace-pre-wrap">{message.content}</p>
                   ) : (
-                    <div className="text-sm leading-relaxed text-gray-900 [&_*]:text-gray-900">
+                    <div className="text-base leading-relaxed text-gray-900 [&_*]:text-gray-900">
                       <ReactMarkdown
                         components={{
                           p: ({ children, ...props }) => (
-                            <p className="mb-2 last:mb-0 text-gray-900" {...props}>
+                            <p className="mb-3 last:mb-0 text-gray-900 text-base" {...props}>
                               {children}
                             </p>
                           ),
                           strong: ({ children, ...props }) => (
-                            <strong className="font-bold text-gray-900" {...props}>
+                            <strong className="font-bold text-gray-900 text-base" {...props}>
                               {children}
                             </strong>
                           ),
                           ul: ({ children, ...props }) => (
                             <ul
-                              className="list-disc list-inside mb-2 space-y-1 ml-0 text-gray-900"
+                              className="list-disc list-inside mb-3 space-y-2 ml-0 text-gray-900 text-base"
                               {...props}
                             >
                               {children}
                             </ul>
                           ),
                           li: ({ children, ...props }) => (
-                            <li className="ml-4 text-gray-900" {...props}>
+                            <li className="ml-4 text-gray-900 text-base" {...props}>
                               {children}
                             </li>
                           ),
                           em: ({ children, ...props }) => (
-                            <em className="italic text-gray-900" {...props}>
+                            <em className="italic text-gray-900 text-base" {...props}>
                               {children}
                             </em>
                           ),
                           h1: ({ children, ...props }) => (
-                            <h1 className="text-lg font-bold mb-2 text-gray-900" {...props}>
+                            <h1 className="text-xl font-bold mb-3 text-gray-900" {...props}>
                               {children}
                             </h1>
                           ),
                           h2: ({ children, ...props }) => (
-                            <h2 className="text-base font-bold mb-2 text-gray-900" {...props}>
+                            <h2 className="text-lg font-bold mb-3 text-gray-900" {...props}>
                               {children}
                             </h2>
                           ),
                           h3: ({ children, ...props }) => (
-                            <h3 className="text-sm font-bold mb-2 text-gray-900" {...props}>
+                            <h3 className="text-base font-bold mb-3 text-gray-900" {...props}>
                               {children}
                             </h3>
                           ),
@@ -201,8 +201,8 @@ How can I assist you today?`,
             ))}
             {isLoading && (
               <div className="flex justify-start">
-                <div className="bg-soft-gray rounded-lg px-4 py-2">
-                  <Loader2 className="h-4 w-4 animate-spin text-teal" />
+                <div className="bg-soft-gray rounded-lg px-5 py-3">
+                  <Loader2 className="h-6 w-6 animate-spin text-teal" />
                 </div>
               </div>
             )}
@@ -210,30 +210,32 @@ How can I assist you today?`,
           </div>
 
           {/* Input Form */}
-          <form onSubmit={handleSend} className="border-t border-soft-gray-dark p-4">
-            <div className="flex gap-2">
+          <form onSubmit={handleSend} className="border-t-2 border-soft-gray-dark p-5">
+            <div className="flex gap-3">
               <input
                 ref={inputRef}
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="Type your message..."
-                className="flex-1 px-4 py-2 border border-soft-gray-dark rounded-lg focus:outline-none focus:ring-2 focus:ring-teal focus:border-transparent text-base"
+                placeholder="Type your question here..."
+                className="flex-1 px-5 py-3 border-2 border-soft-gray-dark rounded-lg focus:outline-none focus:ring-2 focus:ring-teal focus:border-transparent text-lg"
                 disabled={isLoading}
+                aria-label="Type your question about reverse mortgages"
               />
               <button
                 type="submit"
                 disabled={isLoading || !input.trim()}
-                className="bg-teal text-white p-2 rounded-lg hover:bg-teal-light transition-colors disabled:opacity-50 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-teal focus:ring-offset-2"
-                aria-label="Send message"
+                className="bg-teal text-white px-5 py-3 rounded-lg hover:bg-teal-light transition-colors disabled:opacity-50 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-teal focus:ring-offset-2 min-w-[60px] min-h-[48px] flex items-center justify-center"
+                aria-label="Send your message"
               >
                 {isLoading ? (
-                  <Loader2 className="h-5 w-5 animate-spin" />
+                  <Loader2 className="h-6 w-6 animate-spin" />
                 ) : (
-                  <Send className="h-5 w-5" />
+                  <Send className="h-6 w-6" />
                 )}
               </button>
             </div>
+            <p className="text-sm text-gray-600 mt-2 text-center">Press Enter or click Send to ask your question</p>
           </form>
         </div>
       )}
