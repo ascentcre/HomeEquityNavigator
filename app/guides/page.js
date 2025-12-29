@@ -63,7 +63,7 @@ export default function GuidesPage() {
             Understanding Reverse Mortgages: Myths, Facts & Peace of Mind
           </h1>
           <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mb-4">
-            Home equity is one of the most valuable assets for American seniors. With over <strong>$12 trillion</strong> in home equity held by seniors in the U.S., yet less than <strong>2% of eligible homeowners</strong> utilizing reverse mortgage programs, there's significant untapped potential for enhancing retirement security.
+            Home equity is one of the most valuable assets for American seniors. With over <strong>$12 trillion</strong> in home equity held by seniors in the U.S., yet less than <strong>2% of eligible homeowners</strong> utilizing reverse mortgage programs, there&apos;s significant untapped potential for enhancing retirement security.
           </p>
           <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-6">
             This comprehensive guide will help you understand reverse mortgages, dispel common myths, and explore how this financial tool might fit into your retirement planning.
@@ -114,7 +114,7 @@ export default function GuidesPage() {
                   Are Reverse Mortgages Bad? Addressing Common Myths
                 </h2>
                 <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                  Before diving into the details, let's address the most common misconceptions about reverse mortgages:
+                  Before diving into the details, let&apos;s address the most common misconceptions about reverse mortgages:
                 </p>
 
                 <div className="space-y-8">
@@ -126,16 +126,16 @@ export default function GuidesPage() {
                   </div>
 
                   <div className="bg-soft-gray rounded-lg p-6">
-                    <h3 className="text-2xl font-serif font-bold text-teal mb-3">Myth 2: You Don't Retain Title to Your Home</h3>
+                    <h3 className="text-2xl font-serif font-bold text-teal mb-3">Myth 2: You Don&apos;t Retain Title to Your Home</h3>
                     <p className="text-base text-gray-700 leading-relaxed">
-                      <strong className="text-teal">Reality:</strong> This is completely false. With a reverse mortgage, you retain full ownership and title to your home, just as you would with a traditional mortgage. You can sell your home at any time, and you're responsible for property taxes, homeowner's insurance, and home maintenance—just like any homeowner.
+                      <strong className="text-teal">Reality:</strong> This is completely false. With a reverse mortgage, you retain full ownership and title to your home, just as you would with a traditional mortgage. You can sell your home at any time, and you&apos;re responsible for property taxes, homeowner&apos;s insurance, and home maintenance—just like any homeowner.
                     </p>
                   </div>
 
                   <div className="bg-soft-gray rounded-lg p-6">
                     <h3 className="text-2xl font-serif font-bold text-teal mb-3">Myth 3: Your Spouse Will Be Left Homeless</h3>
                     <p className="text-base text-gray-700 leading-relaxed">
-                      <strong className="text-teal">Reality:</strong> Federal regulations include strong protections for "Eligible Non-Borrowing Spouses." If your spouse qualifies as an eligible non-borrowing spouse, they may remain in the home for life as long as all loan terms are met (paying property taxes, insurance, and maintaining the home). This protection was specifically designed to prevent surviving spouses from losing their homes.
+                      <strong className="text-teal">Reality:</strong> Federal regulations include strong protections for &quot;Eligible Non-Borrowing Spouses.&quot; If your spouse qualifies as an eligible non-borrowing spouse, they may remain in the home for life as long as all loan terms are met (paying property taxes, insurance, and maintaining the home). This protection was specifically designed to prevent surviving spouses from losing their homes.
                     </p>
                   </div>
 
@@ -148,7 +148,7 @@ export default function GuidesPage() {
                       <li>Sell the home and retain any equity after paying off the reverse mortgage (just like any other mortgage)</li>
                       <li>Keep the home by paying off the loan balance (either through refinancing or paying cash)</li>
                       <li>Buy the home for 95% of the appraised value or the amount due, whichever is less</li>
-                      <li>Deed the home to the lender if the home value is less than the loan balance (the "non-recourse" feature means neither you nor your heirs will owe more than the home's value)</li>
+                      <li>Deed the home to the lender if the home value is less than the loan balance (the &quot;non-recourse&quot; feature means neither you nor your heirs will owe more than the home&apos;s value)</li>
                     </ul>
                   </div>
 
@@ -172,7 +172,7 @@ export default function GuidesPage() {
                 </h2>
 
                 <div className="bg-teal text-white rounded-lg p-6 mb-6">
-                  <h3 className="text-2xl font-serif font-bold mb-3">I.J.A.M. (It's Just Another Mortgage!)</h3>
+                  <h3 className="text-2xl font-serif font-bold mb-3">I.J.A.M. (It&apos;s Just Another Mortgage!)</h3>
                   <p className="text-lg leading-relaxed">
                     At its core, a reverse mortgage is simply another type of mortgage loan—but with unique features designed specifically for homeowners aged 62 and older.
                   </p>
@@ -203,7 +203,7 @@ export default function GuidesPage() {
                       <div className="bg-soft-gray rounded-lg p-6">
                         <h4 className="text-xl font-bold text-teal mb-3">Reverse Mortgage:</h4>
                         <p className="text-base text-gray-700 leading-relaxed">
-                          The lender makes payments to you (or establishes available credit) based on your home equity. You make no required monthly mortgage payments. Interest accrues on the loan balance over time. Your loan balance increases while your equity decreases, but you never owe more than the home's value.
+                          The lender makes payments to you (or establishes available credit) based on your home equity. You make no required monthly mortgage payments. Interest accrues on the loan balance over time. Your loan balance increases while your equity decreases, but you never owe more than the home&apos;s value.
                         </p>
                       </div>
                     </div>
@@ -232,7 +232,7 @@ export default function GuidesPage() {
                         </p>
                         <ul className="list-disc list-inside space-y-1 text-base text-gray-700 ml-4">
                           <li>Property taxes</li>
-                          <li>Homeowner's insurance</li>
+                          <li>Homeowner&apos;s insurance</li>
                           <li>HOA dues (if applicable)</li>
                           <li>Home maintenance and repairs</li>
                         </ul>
@@ -281,9 +281,9 @@ export default function GuidesPage() {
 
                 <div className="space-y-12">
                   <div>
-                    <h3 className="text-2xl font-serif font-bold text-teal mb-4">✓ NEED: "Meet Your Immediate Financial Goals (Without Selling Your Home!)"</h3>
+                    <h3 className="text-2xl font-serif font-bold text-teal mb-4">✓ NEED: &quot;Meet Your Immediate Financial Goals (Without Selling Your Home!)&quot;</h3>
                     <p className="text-base text-gray-700 leading-relaxed mb-4">
-                      Many retirees face pressing financial needs but don't want to sell their homes. A reverse mortgage can help you:
+                      Many retirees face pressing financial needs but don&apos;t want to sell their homes. A reverse mortgage can help you:
                     </p>
                     <div className="space-y-4">
                       <div className="bg-soft-gray rounded-lg p-5">
@@ -326,7 +326,7 @@ export default function GuidesPage() {
                   </div>
 
                   <div>
-                    <h3 className="text-2xl font-serif font-bold text-teal mb-4">✓ LIFESTYLE: "Support the Lifestyle You've Earned While Staying in the Home You Love"</h3>
+                    <h3 className="text-2xl font-serif font-bold text-teal mb-4">✓ LIFESTYLE: &quot;Support the Lifestyle You&apos;ve Earned While Staying in the Home You Love&quot;</h3>
                     <p className="text-base text-gray-700 leading-relaxed mb-4">
                       Retirement should be enjoyable. A reverse mortgage can enhance your quality of life by providing financial flexibility.
                     </p>
@@ -341,27 +341,27 @@ export default function GuidesPage() {
                       <div className="bg-soft-gray rounded-lg p-5">
                         <h4 className="text-xl font-bold text-teal mb-2">Fund Travel, Hobbies, and Experiences</h4>
                         <p className="text-base text-gray-700 leading-relaxed mb-2">
-                          You've worked hard your entire life. Now is the time to:
+                          You&apos;ve worked hard your entire life. Now is the time to:
                         </p>
                         <ul className="list-disc list-inside space-y-1 text-base text-gray-700 ml-4">
                           <li>Take that dream vacation</li>
-                          <li>Pursue hobbies you're passionate about</li>
+                          <li>Pursue hobbies you&apos;re passionate about</li>
                           <li>Create meaningful experiences with family and friends</li>
                           <li>Check items off your bucket list</li>
                         </ul>
                       </div>
 
                       <div className="bg-soft-gray rounded-lg p-5">
-                        <h4 className="text-xl font-bold text-teal mb-2">Gifting with "Warm Hands" vs. "Cold Hands"</h4>
+                        <h4 className="text-xl font-bold text-teal mb-2">Gifting with &quot;Warm Hands&quot; vs. &quot;Cold Hands&quot;</h4>
                         <p className="text-base text-gray-700 leading-relaxed">
-                          Many people want to help their children or grandchildren while they're still alive—with a down payment on a home, education expenses, or starting a business. A reverse mortgage allows you to give financial gifts with "warm hands" (while you're alive to see the impact) rather than "cold hands" (through inheritance).
+                          Many people want to help their children or grandchildren while they&apos;re still alive—with a down payment on a home, education expenses, or starting a business. A reverse mortgage allows you to give financial gifts with &quot;warm hands&quot; (while you&apos;re alive to see the impact) rather than &quot;cold hands&quot; (through inheritance).
                         </p>
                       </div>
                     </div>
                   </div>
 
                   <div>
-                    <h3 className="text-2xl font-serif font-bold text-teal mb-4">✓ PLAN: "Secure a Stronger Future with Proactive Financial Planning"</h3>
+                    <h3 className="text-2xl font-serif font-bold text-teal mb-4">✓ PLAN: &quot;Secure a Stronger Future with Proactive Financial Planning&quot;</h3>
                     <p className="text-base text-gray-700 leading-relaxed mb-4">
                       Financial advisors increasingly recognize reverse mortgages as a strategic planning tool for sophisticated retirement planning.
                     </p>
@@ -476,12 +476,12 @@ export default function GuidesPage() {
                         </p>
                         <ul className="list-disc list-inside space-y-1 text-base text-gray-700 ml-4">
                           <li>Property taxes</li>
-                          <li>Homeowner's insurance</li>
+                          <li>Homeowner&apos;s insurance</li>
                           <li>HOA dues (if applicable)</li>
                           <li>Current debts and living expenses</li>
                         </ul>
                         <p className="text-base text-gray-700 leading-relaxed mt-2">
-                          This assessment is not as strict as traditional mortgage underwriting, but it ensures you can afford to maintain the home and meet ongoing obligations. If you don't pass the standard financial assessment, you may still qualify with a set-aside for property taxes and insurance.
+                          This assessment is not as strict as traditional mortgage underwriting, but it ensures you can afford to maintain the home and meet ongoing obligations. If you don&apos;t pass the standard financial assessment, you may still qualify with a set-aside for property taxes and insurance.
                         </p>
                       </div>
                     </div>
@@ -576,7 +576,7 @@ export default function GuidesPage() {
                     <div className="bg-teal text-white rounded-lg p-5 mb-4">
                       <h5 className="text-xl font-bold mb-2">You and Your Heirs Will Never Owe More Than the Value of Your Home</h5>
                       <p className="leading-relaxed mb-2">
-                        This is called the "non-recourse" feature. Even if your loan balance grows larger than your home's value (due to accruing interest and/or declining home values), neither you nor your heirs will owe more than the home is worth when the loan comes due.
+                        This is called the &quot;non-recourse&quot; feature. Even if your loan balance grows larger than your home&apos;s value (due to accruing interest and/or declining home values), neither you nor your heirs will owe more than the home is worth when the loan comes due.
                       </p>
                       <p className="text-sm italic mt-2">
                         Example: If your home is worth $300,000 when the loan comes due, but the loan balance has grown to $350,000, your estate will only owe $300,000. The FHA insurance covers the difference.
@@ -589,9 +589,9 @@ export default function GuidesPage() {
 
                   <div className="bg-soft-gray rounded-lg p-6">
                     <h3 className="text-2xl font-serif font-bold text-teal mb-4">Spouse Protections</h3>
-                    <h4 className="text-xl font-bold text-teal mb-3">An "Eligible Non-Borrowing Spouse" May Remain in the Home for Life</h4>
+                    <h4 className="text-xl font-bold text-teal mb-3">An &quot;Eligible Non-Borrowing Spouse&quot; May Remain in the Home for Life</h4>
                     <p className="text-base text-gray-700 leading-relaxed mb-4">
-                      If you have a spouse who does not qualify for the reverse mortgage (typically because they are under age 62), they can still be protected as an "Eligible Non-Borrowing Spouse."
+                      If you have a spouse who does not qualify for the reverse mortgage (typically because they are under age 62), they can still be protected as an &quot;Eligible Non-Borrowing Spouse.&quot;
                     </p>
                     <p className="text-base text-gray-700 leading-relaxed mb-2">
                       <strong>Requirements for eligible non-borrowing spouse protection:</strong>
@@ -628,7 +628,7 @@ export default function GuidesPage() {
                       <strong>This is a critical consumer protection</strong> that ensures you fully understand the product before committing.
                     </p>
                     <p className="text-base text-gray-700 leading-relaxed">
-                      Counseling can be completed by phone, in person, or via video conference. You'll receive a certificate of completion, which is required to proceed with the loan application.
+                      Counseling can be completed by phone, in person, or via video conference. You&apos;ll receive a certificate of completion, which is required to proceed with the loan application.
                     </p>
                   </div>
 
@@ -653,10 +653,10 @@ export default function GuidesPage() {
                     <h3 className="text-2xl font-serif font-bold text-teal mb-4">Right of Rescission</h3>
                     <h4 className="text-xl font-bold text-teal mb-3">3-Business Day Period to Cancel Without Penalty</h4>
                     <p className="text-base text-gray-700 leading-relaxed mb-4">
-                      After you sign your reverse mortgage documents, you have a <strong>3-business day "cooling off" period</strong> during which you can cancel the loan for any reason without penalty.
+                      After you sign your reverse mortgage documents, you have a <strong>3-business day &quot;cooling off&quot; period</strong> during which you can cancel the loan for any reason without penalty.
                     </p>
                     <p className="text-base text-gray-700 leading-relaxed mb-4">
-                      <strong>"Right of Rescission" Allows Time for Reflection and Last-Minute Questions</strong>
+                      <strong>&quot;Right of Rescission&quot; Allows Time for Reflection and Last-Minute Questions</strong>
                     </p>
                     <p className="text-base text-gray-700 leading-relaxed mb-2">
                       This period gives you time to:
@@ -702,7 +702,7 @@ export default function GuidesPage() {
                         </p>
                         <ul className="list-disc list-inside space-y-1 text-base text-gray-700 ml-4 mt-2">
                           <li>The outstanding loan balance</li>
-                          <li>95% of the home's appraised value</li>
+                          <li>95% of the home&apos;s appraised value</li>
                         </ul>
                         <p className="text-sm text-gray-600 italic mt-2">
                           Example: If the loan balance is $300,000 but the home appraises for $280,000, heirs can keep the home by paying $266,000 (95% of $280,000).
@@ -792,7 +792,7 @@ export default function GuidesPage() {
                       <strong>Reverse Mortgage:</strong> Yes, the unused line of credit grows over time at the same rate as the loan interest rate. This is a unique and powerful feature.
                     </p>
                     <p className="text-sm text-gray-600 italic mt-3">
-                      Example: If you have a $100,000 line of credit with a 5% interest rate and don't use it for 10 years, your available credit line grows to approximately $163,000—even if your home value doesn't change. The growth of your credit line is not tied to your home's value.
+                      Example: If you have a $100,000 line of credit with a 5% interest rate and don&apos;t use it for 10 years, your available credit line grows to approximately $163,000—even if your home value doesn&apos;t change. The growth of your credit line is not tied to your home&apos;s value.
                     </p>
                     <p className="text-base text-gray-700 leading-relaxed mt-4">
                       This guaranteed growth feature makes the reverse mortgage line of credit an excellent long-term planning tool.
@@ -952,7 +952,7 @@ export default function GuidesPage() {
                       <ul className="list-disc list-inside space-y-2 text-base text-gray-700">
                         <li>Eliminate Monthly Mortgage Payments</li>
                         <li>Supplement or Increase Monthly Cash Flow</li>
-                        <li>Establish a "Standby Line of Credit"</li>
+                        <li>Establish a &quot;Standby Line of Credit&quot;</li>
                         <li>Access Funds for In-Home Care or Aging-in-Place Renovations</li>
                       </ul>
                       <ul className="list-disc list-inside space-y-2 text-base text-gray-700">
@@ -1016,7 +1016,7 @@ export default function GuidesPage() {
                         <div>
                           <h4 className="text-xl font-bold text-teal mb-2">Complete HUD-Approved Counseling</h4>
                           <p className="text-base text-gray-700 leading-relaxed">
-                            Before proceeding, you'll complete a required counseling session with an independent, HUD-approved counselor who will ensure you fully understand how reverse mortgages work, discuss alternatives, answer all your questions, and provide an unbiased assessment.
+                            Before proceeding, you&apos;ll complete a required counseling session with an independent, HUD-approved counselor who will ensure you fully understand how reverse mortgages work, discuss alternatives, answer all your questions, and provide an unbiased assessment.
                           </p>
                         </div>
                       </div>
@@ -1064,7 +1064,7 @@ export default function GuidesPage() {
               {/* Disclaimer Footer */}
               <div className="border-t border-gray-300 pt-8 pb-4">
                 <p className="text-xs text-gray-600 leading-relaxed mb-4">
-                  <strong>Important Disclosures:</strong> This information is for educational purposes only and does not constitute financial advice. Reverse mortgage terms, rates, and availability are subject to change and vary by lender and location. You should consult with a licensed reverse mortgage specialist, financial advisor, and/or attorney before making any decisions. All borrowers are required to complete HUD-approved counseling. You remain responsible for property taxes, homeowner's insurance, HOA dues (if applicable), and home maintenance.
+                  <strong>Important Disclosures:</strong> This information is for educational purposes only and does not constitute financial advice. Reverse mortgage terms, rates, and availability are subject to change and vary by lender and location. You should consult with a licensed reverse mortgage specialist, financial advisor, and/or attorney before making any decisions. All borrowers are required to complete HUD-approved counseling. You remain responsible for property taxes, homeowner&apos;s insurance, HOA dues (if applicable), and home maintenance.
                 </p>
                 <p className="text-xs text-gray-500 italic text-center">
                   Powered by Texana Bank | FDIC Insured

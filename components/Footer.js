@@ -42,10 +42,10 @@ export default function Footer() {
             This material is not from HUD or FHA and has not been approved by HUD or a government agency. 
             Texana Bank is not affiliated with or endorsed by HUD, FHA, or any government agency. Reverse 
             mortgages are available to homeowners 62 years of age or older. You must live in the home as your 
-            primary residence, maintain the property, and pay property taxes and homeowner's insurance. The loan 
+            primary residence, maintain the property, and pay property taxes and homeowner&apos;s insurance. The loan 
             becomes due when you no longer occupy the home as your primary residence or fail to meet loan obligations. 
             Counseling from a HUD-approved counseling agency is required before obtaining a reverse mortgage. 
-            Reverse mortgages are originated through Texana Bank's network of third-party lenders.
+            Reverse mortgages are originated through Texana Bank&apos;s network of third-party lenders.
           </p>
           
           <p>

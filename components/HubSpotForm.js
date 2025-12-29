@@ -3,13 +3,22 @@
 import { useEffect } from 'react';
 
 export default function HubSpotForm() {
+  const portalId = process.env.NEXT_PUBLIC_HUBSPOT_PORTAL_ID;
+  const formId = process.env.NEXT_PUBLIC_HUBSPOT_FORM_ID;
+
   useEffect(() => {
+    // Validate environment variables
+    if (!portalId || !formId) {
+      console.error('HubSpot environment variables are not configured. Please set NEXT_PUBLIC_HUBSPOT_PORTAL_ID and NEXT_PUBLIC_HUBSPOT_FORM_ID in your environment variables.');
+      return;
+    }
+
     // Load HubSpot script if not already loaded
     const scriptId = 'hs-form-script';
     if (!document.getElementById(scriptId)) {
       const script = document.createElement('script');
       script.id = scriptId;
-      script.src = 'https://js-na2.hsforms.net/forms/embed/242985322.js';
+      script.src = `https://js-na2.hsforms.net/forms/embed/${portalId}.js`;
       script.defer = true;
       document.body.appendChild(script);
     }
@@ -78,15 +87,26 @@ export default function HubSpotForm() {
 
     // Cleanup interval after 10 seconds
     setTimeout(() => clearInterval(checkInterval), 10000);
-  }, []);
+  }, [portalId, formId]);
+
+  // Show error message if environment variables are missing
+  if (!portalId || !formId) {
+    return (
+      <div className="w-full p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
+        <p className="text-sm text-yellow-800">
+          HubSpot form configuration is missing. Please configure NEXT_PUBLIC_HUBSPOT_PORTAL_ID and NEXT_PUBLIC_HUBSPOT_FORM_ID environment variables.
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div className="w-full">
       <div 
         className="hs-form-frame" 
         data-region="na2" 
-        data-form-id="fe407b4e-f9c4-4370-a1bf-c352f8d0230c" 
-        data-portal-id="242985322"
+        data-form-id={formId}
+        data-portal-id={portalId}
       />
     </div>
   );
