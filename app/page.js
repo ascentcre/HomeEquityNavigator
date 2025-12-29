@@ -28,7 +28,7 @@ export default function Home() {
       <div className="text-center py-8 px-4 bg-gray-50/50">
         <p className="text-lg text-gray-700 max-w-3xl mx-auto" style={{ lineHeight: '1.7', fontSize: '18px' }}>
           Reverse mortgages have helped over 1 million homeowners nationwide. 
-          Let us show you if it's right for your situation—with no pressure, just answers.
+          Let us show you if it&apos;s right for your situation—with no pressure, just answers.
         </p>
       </div>
 
@@ -36,7 +36,7 @@ export default function Home() {
       <section className="py-12 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <p className="text-xl text-gray-600 mb-6 text-center" style={{ lineHeight: '1.7', fontSize: '20px' }}>
-            A reverse mortgage might be right for you if you're 62+ and want to...
+            A reverse mortgage might be right for you if you&apos;re 62+ and want to...
           </p>
           <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
             <div className="flex items-start gap-3">
