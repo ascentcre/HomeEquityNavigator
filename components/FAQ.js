@@ -7,43 +7,48 @@ import { ChevronDown } from 'lucide-react';
 const faqData = [
   {
     id: 1,
-    question: "Does the bank own your home with a reverse mortgage?",
-    answer: "You retain full ownership and title to your home. A reverse mortgage is a loan secured by your home, but you remain the homeowner. The loan only becomes due when you permanently move out, sell the home, or pass away."
+    question: "What are the eligibility requirements for a reverse mortgage?",
+    answer: "To qualify for a reverse mortgage, you must be 62 years or older, own your home (or have significant equity), use it as your primary residence, and be able to pay property taxes, homeowner's insurance, and maintain the property. You must also complete HUD-approved counseling before obtaining a reverse mortgage."
   },
   {
     id: 2,
-    question: "Can you be forced out of your home with a reverse mortgage?",
-    answer: "As long as you live in the home, maintain it, and pay property taxes and insurance, you cannot be forced to move. The loan terms protect your right to stay in your home for life."
-  },
-  {
-    id: 3,
-    question: "Do your heirs inherit debt with a reverse mortgage?",
-    answer: "Reverse mortgages are non-recourse loans. This means your heirs will never owe more than the home is worth. They can choose to repay the loan and keep the home, or sell it and keep any remaining equity."
-  },
-  {
-    id: 4,
-    question: "Are reverse mortgages only for desperate people?",
-    answer: "Many financially savvy seniors use reverse mortgages as a strategic retirement planning tool to optimize cash flow, eliminate monthly mortgage payments, and preserve other investments while staying in their homes."
-  },
-  {
-    id: 5,
-    question: "Will you lose your home if you outlive the reverse mortgage loan?",
-    answer: "This is impossible with a reverse mortgage. The loan continues as long as you live in the home and meet the basic obligations. There's no set term, and the loan doesn't come due simply because of your age."
-  },
-  {
-    id: 6,
     question: "How does a reverse mortgage affect Social Security?",
     answer: "Reverse mortgage proceeds do not count as income and do not affect your Social Security benefits. However, if you receive means-tested benefits like Supplemental Security Income (SSI) or Medicaid, you may need to spend the funds within the month you receive them to avoid affecting eligibility. It's important to consult with a financial advisor about your specific situation."
   },
   {
+    id: 3,
+    question: "Does the bank own your home with a reverse mortgage?",
+    answer: "You retain full ownership and title to your home. A reverse mortgage is a loan secured by your home, but you remain the homeowner. The loan only becomes due when you permanently move out, sell the home, or pass away."
+  },
+  {
+    id: 4,
+    question: "Do your heirs inherit debt with a reverse mortgage?",
+    answer: "Reverse mortgages are non-recourse loans. This means your heirs will never owe more than the home is worth. They can choose to repay the loan and keep the home, or sell it and keep any remaining equity."
+  },
+  {
+    id: 5,
+    question: "Can you be forced out of your home with a reverse mortgage?",
+    answer: "As long as you live in the home, maintain it, and pay property taxes and insurance, you cannot be forced to move. The loan terms protect your right to stay in your home for life."
+  },
+  {
+    id: 6,
+    question: "Who typically benefits from a reverse mortgage?",
+    answer: "Many financially savvy seniors use reverse mortgages as a strategic retirement planning tool to optimize cash flow, eliminate monthly mortgage payments, and preserve other investments while staying in their homes. It's a valuable option for homeowners 62+ who want to access their home equity without selling or taking on monthly payments."
+  },
+  {
     id: 7,
+    question: "Will you lose your home if you outlive the reverse mortgage loan?",
+    answer: "This is impossible with a reverse mortgage. The loan continues as long as you live in the home and meet the basic obligations. There's no set term, and the loan doesn't come due simply because of your age."
+  },
+  {
+    id: 8,
     question: "Do you need to own your home free and clear to get a reverse mortgage?",
     answer: "No, you do not need to own your home outright. Many people use reverse mortgages to pay off existing mortgages, which eliminates their monthly mortgage payments. If you have an existing mortgage, the reverse mortgage proceeds must first pay off that loan, and you receive the remaining funds."
   },
   {
-    id: 8,
-    question: "What are the eligibility requirements for a reverse mortgage?",
-    answer: "To qualify for a reverse mortgage, you must be 62 years or older, own your home (or have significant equity), use it as your primary residence, and be able to pay property taxes, homeowner's insurance, and maintain the property. You must also complete HUD-approved counseling before obtaining a reverse mortgage."
+    id: 9,
+    question: "What's the next step to see if this is right for me?",
+    answer: "The best next step is to get a personalized analysis based on your specific situation. Our free analysis report will show you exactly how much tax-free cash you could access, how it would work with your current mortgage (if you have one), and what your options are. There's no obligation—just clear information to help you make an informed decision."
   }
 ];
 

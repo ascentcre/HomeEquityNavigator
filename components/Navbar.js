@@ -26,7 +26,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             <Link 
               href="/" 
               className="text-gray-700 hover:text-teal font-medium text-lg transition-colors"
@@ -34,26 +34,21 @@ export default function Navbar() {
               Home
             </Link>
             <Link 
-              href="/learn" 
-              className="text-gray-700 hover:text-teal font-medium text-lg transition-colors"
-            >
-              About Reverse Mortgages
-            </Link>
-            <Link 
               href="/guides" 
               className="text-gray-700 hover:text-teal font-medium text-lg transition-colors"
             >
-              Guide
+              How It Works
             </Link>
             <Link 
               href="/calculate" 
-              className="text-gray-700 hover:text-teal font-medium text-lg transition-colors"
+              className="btn-primary"
+              aria-label="Get Your Report"
             >
               Get Your Report
             </Link>
             <a 
               href="https://calendly.com/justin-castro-texanabank/reverse-mortgage-discussion" 
-              className="btn-primary"
+              className="btn-secondary"
               aria-label="Talk to an expert"
               target="_blank"
               rel="noopener noreferrer"
@@ -90,29 +85,22 @@ export default function Navbar() {
               Home
             </Link>
             <Link
-              href="/learn"
-              className="block px-4 py-3 text-gray-700 hover:bg-soft-gray rounded-lg font-medium text-lg"
-              onClick={() => setIsOpen(false)}
-            >
-              About Reverse Mortgages
-            </Link>
-            <Link
               href="/guides"
               className="block px-4 py-3 text-gray-700 hover:bg-soft-gray rounded-lg font-medium text-lg"
               onClick={() => setIsOpen(false)}
             >
-              Guide
+              How It Works
             </Link>
             <Link
               href="/calculate"
-              className="block px-4 py-3 text-gray-700 hover:bg-soft-gray rounded-lg font-medium text-lg"
+              className="block btn-primary text-center mt-2"
               onClick={() => setIsOpen(false)}
             >
               Get Your Report
             </Link>
             <a
               href="https://calendly.com/justin-castro-texanabank/reverse-mortgage-discussion"
-              className="block btn-primary text-center mt-4"
+              className="block btn-secondary text-center mt-2"
               onClick={() => setIsOpen(false)}
               target="_blank"
               rel="noopener noreferrer"
