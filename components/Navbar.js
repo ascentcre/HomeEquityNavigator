@@ -17,10 +17,11 @@ export default function Navbar() {
             <Image
               src="/texana-bank-fdic-logo.png"
               alt="FDIC Insured - Texana Bank"
-              width={248}
-              height={45}
+              width={358}
+              height={65}
               className="h-[65px] w-auto object-contain"
               priority
+              quality={100}
             />
           </Link>
 
@@ -33,10 +34,16 @@ export default function Navbar() {
               Home
             </Link>
             <Link 
+              href="/learn" 
+              className="text-gray-700 hover:text-teal font-medium text-lg transition-colors"
+            >
+              About Reverse Mortgages
+            </Link>
+            <Link 
               href="/guides" 
               className="text-gray-700 hover:text-teal font-medium text-lg transition-colors"
             >
-              Learn
+              Guide
             </Link>
             <Link 
               href="/calculate" 
@@ -83,11 +90,18 @@ export default function Navbar() {
               Home
             </Link>
             <Link
+              href="/learn"
+              className="block px-4 py-3 text-gray-700 hover:bg-soft-gray rounded-lg font-medium text-lg"
+              onClick={() => setIsOpen(false)}
+            >
+              About Reverse Mortgages
+            </Link>
+            <Link
               href="/guides"
               className="block px-4 py-3 text-gray-700 hover:bg-soft-gray rounded-lg font-medium text-lg"
               onClick={() => setIsOpen(false)}
             >
-              Learn
+              Guide
             </Link>
             <Link
               href="/calculate"

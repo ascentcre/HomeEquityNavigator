@@ -1,4 +1,5 @@
 import Hero from '@/components/Hero';
+import FAQ from '@/components/FAQ';
 import { Home as HomeIcon, Heart, DollarSign } from 'lucide-react';
 
 export default function Home() {
@@ -24,12 +25,18 @@ export default function Home() {
     <div>
       <Hero />
       
-      {/* Trust Element */}
-      <div className="text-center py-8 px-4 bg-gray-50/50">
-        <p className="text-lg text-gray-700 max-w-3xl mx-auto" style={{ lineHeight: '1.7', fontSize: '18px' }}>
-          Reverse mortgages have helped over 1 million homeowners nationwide. 
-          Let us show you if it&apos;s right for your situation—with no pressure, just answers.
-        </p>
+      {/* Value Proposition Callout */}
+      <div className="bg-gradient-to-r from-teal/5 to-green/5 border-l-4 border-teal py-8 px-4 sm:px-6 lg:px-8 my-8">
+        <div className="max-w-5xl mx-auto">
+          <div className="bg-white rounded-lg shadow-md p-6 sm:p-8 border border-teal/20">
+            <p className="text-xl sm:text-2xl font-semibold text-teal mb-4 text-center">
+              Reverse mortgages have helped over 1 million homeowners nationwide.
+            </p>
+            <p className="text-lg text-gray-700 text-center max-w-3xl mx-auto" style={{ lineHeight: '1.7', fontSize: '18px' }}>
+              Let us show you if it&apos;s right for your situation—with no pressure, just answers.
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* Who This Helps Section */}
@@ -94,6 +101,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
+      <FAQ />
     </div>
   );
 }

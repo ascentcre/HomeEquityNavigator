@@ -39,8 +39,29 @@ export default function MythAccordion() {
     setOpenId(openId === id ? null : id);
   };
 
+  // Generate JSON-LD schema for FAQ format from myths
+  const mythFAQSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": myths.map((myth) => ({
+      "@type": "Question",
+      "name": `Is it true that ${myth.myth.toLowerCase()}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `Myth: ${myth.myth}. Reality: ${myth.reality}`
+      }
+    }))
+  };
+
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white" aria-label="Myths vs Reality about reverse mortgages">
+    <>
+      {/* JSON-LD Schema for Myths FAQ */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(mythFAQSchema) }}
+      />
+      
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white" aria-label="Myths vs Reality about reverse mortgages">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-serif font-bold text-teal text-center mb-4">
           Myths vs. Reality
@@ -95,6 +116,7 @@ export default function MythAccordion() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 
