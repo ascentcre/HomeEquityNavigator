@@ -375,18 +375,18 @@ export default function SampleReport() {
               This projection shows how your home value, available line of credit, and loan balance change over time.
             </p>
             <ResponsiveContainer width="100%" height={400}>
-              <LineChart data={projectionData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
+              <LineChart data={projectionData} margin={{ top: 5, right: 30, left: 60, bottom: 60 }}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis
                   dataKey="year"
-                  label={{ value: 'Years', position: 'insideBottom', offset: -5 }}
+                  label={{ value: 'Years', position: 'insideBottom', offset: -10 }}
                 />
                 <YAxis
                   tickFormatter={(value) => `$${(value / 1000).toFixed(0)}k`}
-                  label={{ value: 'Value ($)', angle: -90, position: 'insideLeft' }}
+                  label={{ value: 'Value', angle: -90, position: 'left', style: { textAnchor: 'middle' } }}
                 />
                 <RechartsTooltip content={<CustomTooltip />} />
-                <Legend />
+                <Legend wrapperStyle={{ paddingTop: '20px' }} />
                 <Line
                   type="monotone"
                   dataKey="Home Value"
