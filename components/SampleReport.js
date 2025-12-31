@@ -203,7 +203,7 @@ export default function SampleReport() {
             <strong>Report Date:</strong> {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
           </p>
           <p>
-            <strong>Prepared by:</strong> Justin Castro, NMLS #2704481, U.S. Army Veteran
+            <strong>Prepared by:</strong> Texana Bank, NMLS #407536
           </p>
         </div>
         <div className="mt-4 p-4 bg-soft-gray rounded-lg">
