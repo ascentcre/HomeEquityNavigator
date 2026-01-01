@@ -1,6 +1,6 @@
 'use client';
 
-import { Shield, Scale, Eye, MapPin } from 'lucide-react';
+import { Shield, Scale, Eye, Users } from 'lucide-react';
 
 export default function TrustIndicators() {
   const indicators = [
@@ -20,9 +20,9 @@ export default function TrustIndicators() {
       description: 'Required HUD-approved counseling ensures you understand all terms and have access to independent guidance',
     },
     {
-      icon: MapPin,
-      title: 'Texas-Based Expertise',
-      description: 'Local knowledge and accessibility mean personalized service tailored to Texas homeowners',
+      icon: Users,
+      title: 'Expert Guidance',
+      description: 'Experienced professionals provide personalized service and dedicated support for homeowners nationwide',
     },
   ];
 
