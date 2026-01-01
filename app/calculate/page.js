@@ -79,7 +79,7 @@ export default function CalculatePage() {
             
             <div className="bg-bright-green bg-opacity-10 border border-bright-green rounded-lg p-6 mb-6">
               <p className="text-gray-700 leading-relaxed">
-                <strong className="text-teal">Ready to get started?</strong> Simply complete the form below, and you'll be one step closer to discovering how much tax-free cash you could access from your home equity. Our reverse mortgage specialist is standing by to help you understand your options.
+                <strong className="text-teal">Ready to get started?</strong> Simply complete the form below, and you&apos;ll be one step closer to discovering how much tax-free cash you could access from your home equity. Our reverse mortgage specialist is standing by to help you understand your options.
               </p>
             </div>
             
