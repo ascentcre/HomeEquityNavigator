@@ -94,10 +94,22 @@ What would you like to know about reverse mortgages? You can ask me anything!`,
       {!isOpen && (
         <button
           onClick={() => setIsOpen(true)}
-          className="fixed bottom-6 right-6 bg-teal text-white p-5 rounded-full shadow-lg hover:bg-teal-light transition-colors duration-200 z-50 focus:outline-none focus:ring-4 focus:ring-teal focus:ring-opacity-50 min-w-[64px] min-h-[64px] flex items-center justify-center"
-          aria-label="Open chat - Click here to ask questions about reverse mortgages"
+          className="fixed bottom-6 right-6 bg-green text-white px-5 py-4 sm:px-6 sm:py-4 rounded-full shadow-lg hover:bg-green-light hover:shadow-xl transition-colors duration-200 z-50 focus:outline-none focus:ring-4 focus:ring-green focus:ring-opacity-50 flex items-center justify-center gap-3 border-0 will-change-auto"
+          aria-label="Open chat - We're here to help answer your questions about reverse mortgages"
+          style={{ 
+            background: 'var(--green-secondary)',
+            opacity: 1,
+            visibility: 'visible',
+            transform: 'none'
+          }}
         >
-          <MessageCircle className="h-8 w-8" />
+          <MessageCircle className="h-7 w-7 flex-shrink-0 stroke-current fill-none" strokeWidth={2} style={{ stroke: 'currentColor' }} />
+          <span className="text-base sm:text-lg font-semibold whitespace-nowrap hidden sm:inline">
+            Questions? We're here to help!
+          </span>
+          <span className="text-base sm:text-lg font-semibold whitespace-nowrap sm:hidden">
+            Chat with us!
+          </span>
         </button>
       )}
 
