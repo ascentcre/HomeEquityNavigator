@@ -105,7 +105,7 @@ What would you like to know about reverse mortgages? You can ask me anything!`,
         >
           <MessageCircle className="h-7 w-7 flex-shrink-0 stroke-current fill-none" strokeWidth={2} style={{ stroke: 'currentColor' }} />
           <span className="text-base sm:text-lg font-semibold whitespace-nowrap hidden sm:inline">
-            Questions? We're here to help!
+            Questions? We&apos;re here to help!
           </span>
           <span className="text-base sm:text-lg font-semibold whitespace-nowrap sm:hidden">
             Chat with us!
